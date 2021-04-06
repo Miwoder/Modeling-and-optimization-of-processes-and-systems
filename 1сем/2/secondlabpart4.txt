@@ -1,0 +1,62 @@
+print('X = ln(x); Y = ln(y); A = ln(a) ; E = ln(e)')
+
+import  math
+X = numpy.log(t['x'])
+print('X')
+print (X)
+
+
+Y = numpy.log(t['y'])
+print('Y')
+print (Y)
+
+Y_ = sum(Y)/len(t['y'])
+print('Y_',Y_)
+X_ = sum(X/len(t['x']))
+print('X_',X_)
+X__Y = sum(X*Y)/len(t['x'])
+print('X__Y',X__Y)
+X2_  = sum(X*X)/len(t['x'])
+print('X2',X2_)
+X_2 = pow(sum(X/len(t['x'])),2)
+print('X_2',X_2)
+cov = X__Y-Y_*X_
+dis2 = X2_ - pow(X_,2)
+b = cov/dis2
+print('b')
+print(b)
+
+
+A = Y_ - b * X_
+print ('A')
+print (A)
+a = math.exp(A)
+print('a')
+print(a)
+
+Y_x2 = a*pow(t['x'],b)
+print ('Y^x')
+print(Y_x2)
+
+E = Y - Y_x2
+print ('E')
+print (E)
+print ('E^2')
+print (pow(E,2))
+
+
+sigma2 =sum(pow(Y_-Y_x2,2))/n
+sigmay2 = sum(pow(Y-Y_,2))/n
+
+
+Pxy = pow(1-(sigma2)/(sigmay2),2)
+print ('Pxy')
+print (Pxy)
+
+m  = 1
+F2 =  pow(Pxy,2)/(1-pow(Pxy,2))* (n-m-1)/m
+print ('F2')
+print (F2)
+
+plt.scatter(t['x'],t['y'])
+plt.plot(t['x'],Y_x2, color = 'red')

@@ -1,0 +1,85 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="570" Width="1300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1115*"/>
+            <ColumnDefinition Width="79*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="Wheat" Panel.ZIndex="-10" HorizontalAlignment="Left" Height="571" VerticalAlignment="Top" Width="430" Margin="0,0,0,0"/>
+        <TextBlock Text="Task 1" Margin="319,0,789.571,501.714" Width="100px" Height="40px" FontSize="20" Foreground="Black" TextAlignment="Center"/>
+        <DataGrid x:Name="Zad11" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="127" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden" VerticalAlignment="Top" Width="409" Margin="10,30,0,0" SelectionChanged="Zad11_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="" Binding="{Binding Path=Line}" IsReadOnly="True" Width="40"></DataGridTextColumn>
+                <DataGridTextColumn Header="П1" Binding="{Binding Path=B1}" IsReadOnly="True" Width="70"></DataGridTextColumn>
+                <DataGridTextColumn Header="П2" Binding="{Binding Path=B2}" IsReadOnly="True" Width="70"></DataGridTextColumn>
+                <DataGridTextColumn Header="П3" Binding="{Binding Path=B3}" IsReadOnly="True" Width="70"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="Zad12" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="127" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden" VerticalAlignment="Top" Width="409" Margin="10,162,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="" Binding="{Binding Path=Line}" IsReadOnly="True" Width="40"></DataGridTextColumn>
+                <DataGridTextColumn Header="П1" Binding="{Binding Path=B1}" IsReadOnly="True" Width="70"></DataGridTextColumn>
+                <DataGridTextColumn Header="П2" Binding="{Binding Path=B2}" IsReadOnly="True" Width="70"></DataGridTextColumn>
+                <DataGridTextColumn Header="П3" Binding="{Binding Path=B3}" IsReadOnly="True" Width="70"></DataGridTextColumn>
+                <DataGridTextColumn Header="min" Binding="{Binding Path=a}" IsReadOnly="True" Width="70"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Rectangle Fill="Wheat" Panel.ZIndex="-10" HorizontalAlignment="Left" Height="571" VerticalAlignment="Top" Width="430" Margin="430,0,0,0"/>
+        <TextBlock Text="Task 2" Margin="755,0,353.571,501.714" Width="100px" Height="40px" FontSize="20" Foreground="Black" TextAlignment="Center"/>
+        <DataGrid x:Name="Zad21" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="110" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden" VerticalAlignment="Top" Width="409" Margin="440,30,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="" Binding="{Binding Line}" IsReadOnly="True" Width="40"/>
+                <DataGridTextColumn Header="B1" Binding="{Binding B1}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B2" Binding="{Binding B2}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B3" Binding="{Binding B3}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B4" Binding="{Binding B4}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="min(x)" Binding="{Binding a}" IsReadOnly="True" Width="70"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="Zad22" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="110" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden" VerticalAlignment="Top" Width="409" Margin="440,144,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="" Binding="{Binding Line}" IsReadOnly="True" Width="40"/>
+                <DataGridTextColumn Header="B1" Binding="{Binding B1}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B2" Binding="{Binding B2}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B3" Binding="{Binding B3}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B4" Binding="{Binding B4}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="max(x)" Binding="{Binding a}" IsReadOnly="True" Width="70"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="Zad23" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="110" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden" VerticalAlignment="Top" Width="409" Margin="440,271,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="" Binding="{Binding Line}" IsReadOnly="True" Width="40"/>
+                <DataGridTextColumn Header="B1" Binding="{Binding B1}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B2" Binding="{Binding B2}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B3" Binding="{Binding B3}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B4" Binding="{Binding B4}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="max(x)" Binding="{Binding a}" IsReadOnly="True" Width="70"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Rectangle Fill="Wheat" Panel.ZIndex="-10" HorizontalAlignment="Left" Height="571" VerticalAlignment="Top" Width="430" Margin="860,0,0,0" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Task 3" Margin="1184,0,10.286,501.714" Width="100px" Height="40px" FontSize="20" Foreground="Black" TextAlignment="Center" Grid.ColumnSpan="2"/>
+        <DataGrid x:Name="Zad31" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="127" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden" VerticalAlignment="Top" Width="409" Margin="870,30,-84.715,0" Grid.ColumnSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="" Binding="{Binding Line}" IsReadOnly="True" Width="40"/>
+                <DataGridTextColumn Header="B1" Binding="{Binding B1}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B2" Binding="{Binding B2}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B3" Binding="{Binding B3}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="B4" Binding="{Binding B4}" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Header="sum" Binding="{Binding a}" IsReadOnly="True" Width="70"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="TextBoxZad1" HorizontalAlignment="Left" Height="100" Margin="10,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409"/>
+        <TextBox x:Name="TextBoxZad2" HorizontalAlignment="Left" Height="100" Margin="440,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409"/>
+        <TextBox x:Name="TextBoxZad3" HorizontalAlignment="Left" Height="100" Margin="870,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Матрица рисков" Margin="709,249,358.571,252.714" Height="40px" FontSize="16" Foreground="White" TextAlignment="Center"/>
+        
+
+    </Grid>
+</Window>

@@ -1,0 +1,91 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy
+import math
+table = [[0.9,1.2],[1.2,3.1],[1.8,5.3],[2.2,7.4],[2.6,9.6],[2.9,11.8],[3.3,14.5],[3.8,18.7]]
+t= pd.DataFrame(table, columns = ['y','x'])
+print (t)
+
+plt.scatter(t['x'],t['y'])
+plt.plot(t['x'],yx, color = 'red')
+print ('x*y')
+print (t['x']*t['y'])
+
+print ('x^2')
+print (pow(t['x'],2))
+
+print ('y^2')
+print (pow(t['y'],2))
+
+print('Подсчёты для расчёта параметров ЛУ парной регрессии')
+y_ = sum(t['y'])/len(t['y'])
+print('y_',y_)
+x_ = sum(t['x'])/len(t['x'])
+print('x_',x_)
+x__y = sum(t['x']*t['y'])/len(t['x'])
+print('x__y',x__y)
+x2_  = sum(t['x']*t['x'])/len(t['x'])
+print('x2',x2_)
+x_2 = pow(sum(t['x'])/len(t['x']),2)
+print('x_2',x_2)
+y2_  = sum(t['y']*t['y'])/len(t['y'])
+print('y2_',y2_)
+y_2 = pow(sum(t['y'])/len(t['y']),2)
+print('y_2',y_2)
+
+b = ((x__y)-(y_*x_))/(x2_-x_2)
+a = y_-b*x_
+print ('b : ',b)
+print ('a : ', a)
+print ('Y^x')
+yx = a+b*t['x']
+print (yx)
+
+y_Yx  = t['y']-yx
+y_Yx2 = pow(t['y']-yx,2)
+print ('y_Yx')
+print ( y_Yx)
+print ('y_Yx2')
+print (y_Yx2)
+
+print ('Линеный коэфф корреляции')
+Rxy  = numpy.corrcoef(t['x'],t['y'])
+print (Rxy)        
+Rxy1 = b*math.sqrt((x2_-x_2))/math.sqrt((y2_-y_2))
+print ('Rxy1')
+print (Rxy1)
+n  = len(t['x'])
+F = pow(Rxy1,2)/(1-pow(Rxy1,2))*(n-2)
+print('F', F)
+S2ost = sum(y_Yx2/(n-2))
+print ('S2ost')
+print(S2ost )
+
+mb = (math.sqrt(S2ost))/(numpy.sqrt((x2_-x_2))*math.sqrt(n))
+print ('mb')
+print (mb)
+
+ma = math.sqrt(S2ost)* math.sqrt(sum(pow(t['x'],2)))/(numpy.sqrt(x2_-x_2)*n)
+print ('ma')
+print (ma)
+
+mr = math.sqrt((1-pow(Rxy1,2))/(n-2))
+print ('mr')
+print (mr)
+
+Ai = numpy.fabs(y_Yx/t['y'])
+print ('Ai')
+print (Ai*100)
+Asr = sum(Ai)/n
+print('Asr')
+print(Asr)
+xp = 9.845
+myp = math.sqrt(S2ost)* math.sqrt(1+1/n+((pow(xp-x_,2))/n*(x2_-x_2)))
+print ('myp',myp)
+
+
+print('Ta')
+print(a/ma)
+
+print('Tb')
+print(b/mb)

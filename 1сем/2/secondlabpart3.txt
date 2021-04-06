@@ -1,0 +1,68 @@
+print('z = sqrt(x)')
+z = numpy.sqrt(t['x'])
+
+print ('z')
+print (z)
+
+zy  = z * t['y']
+print ('zy')
+print (zy)
+
+z2 = pow(z,2)
+print ('z2')
+print (z2)
+
+print('Подсчёты для расчёта параметров ЛУ парной регрессии')
+
+z_ = sum(z/len(t['x']))
+print('z_',z_)
+z__y = sum(z*t['y'])/len(t['x'])
+print('z__y',z__y)
+z2_  = sum(z*z)/len(t['x'])
+print('z2',z2_)
+z_2 = pow(sum(z/len(t['x'])),2)
+print('z_2',z_2)
+cov = z__y-y_*z_
+dis2 = z2_ - pow(z_,2)
+b2 = cov/dis2
+#b2 = ((z__y)-(y_*z_))/(z2_-z_2)
+a2 = y_- b2*z_
+
+
+print ('b2',b2)
+print ('a2',a2)
+
+Y_x2 = a2  + b2 * z
+print ('Y^x')
+print(Y_x2)
+
+E = t['y'] - Y_x2
+print ('E')
+print (E)
+print ('E^2')
+print (pow(E,2))
+
+
+sigma2 = pow(sum(y_-Y_x2),2)/n
+sigmay2 = pow(sum(t['y']-y_),2)/n
+
+
+Pxy = math.sqrt(1-(sigma2)/(sigmay2))
+print ('Pxy')
+print (Pxy)
+m  = 1
+F2 =  pow(Pxy,2)/(1-pow(Pxy,2))* (n-m-1)/m
+print ('F2')
+print (F2)
+
+
+Ai = numpy.fabs(y_Yx/t['y'])
+print ('Ai')
+print (Ai*100)
+
+Asr = sum(Ai)/len(Ai)
+print('')
+print(Asr)
+plt.scatter(t['x'],t['y'])
+plt.plot(t['x'],Y_x2, color = 'red')
+

@@ -1,0 +1,60 @@
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Учеба\6 сем\МОПС\Lab 1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Учеба\6 сем\МОПС\Lab 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Учеба\6 сем\МОПС\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bestb\OneDrive\Рабочий стол\University\1Моделирование и оптимизация процессов и систем\Lab 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
